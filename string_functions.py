@@ -1,4 +1,4 @@
-# Types
+# TYPES
 
 name = "Johnny"
 print(type(name))
@@ -12,7 +12,7 @@ print(type(age))
 age = age + "5"
 print(type(age))
 
-# Math
+# MATH
 
 password = "12535f3a24  "
 # len() Returns the number of items in a value/characters in string
