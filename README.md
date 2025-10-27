@@ -66,4 +66,10 @@ DOESN'T REMOVE SPACES INSIDE STRING
 > upper()
 > capitalize()
 > swapcase()
+
+# SEARCHING
+> startswith()  # checks if string starts with given string, returns True/False
+> endswith()  # checks if string ends with given string, returns True/False
+> in  # searches value in value, returns True/False
+> find()  # returns the STARTING POSITION of the searched value
 ```
