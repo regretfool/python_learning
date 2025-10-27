@@ -72,4 +72,9 @@ DOESN'T REMOVE SPACES INSIDE STRING
 > endswith()  # checks if string ends with given string, returns True/False
 > in  # searches value in value, returns True/False
 > find()  # returns the STARTING POSITION of the searched value
+
+# VALIDATION
+> isalpha()  # checks if string contains only letters
+> isnumeric()  # checks if string contains only numbers. float numbers (".") are not allowed, "." is a char
+# both return True/False
 ```
