@@ -78,3 +78,52 @@ DOESN'T REMOVE SPACES INSIDE STRING
 > isnumeric()  # checks if string contains only numbers. float numbers (".") are not allowed, "." is a char
 # both return True/False
 ```
+### NUMERIC FUNCTIONS
+```
+# NUMERIC TYPES
+> int()
+> float()
+> complex(a, b)  -> eg. 2 + 5j
+
+# MATH OPERATORS
++
+-
+*
+/
+//  -> rounded division (floor). int output
+%  -> remainder. prints leftover. useful for checking if number is even or odd
+**  -> exponentation. base to power of exponent
+
+# OPERATOR SHORTCUTS
+x += 3  --is short for -->  x = x + 3
++=
+-=
+*=
+/=
+
+# ROUNDING
+> abs()  # useful for measuring distance/size. always positive value
+
+to use the functions below:
+
+import math    
+
+> floor()  # rounds EVERYTHING down
+> ceil()  # rounds everything up
+> round()  # rounds everything up OR down TO THE NEAREST EVEN VALUE. round(1.5) is 2 etc.
+we can also set amount of decimal spaces for round()
+round(value, 3)  # 3 decimal spaces
+> trunc()  # removes decimal spaces without rounding. equivalent of int()
+
+# RANDOM NUMBERS
+requires importing random module
+
+import random
+
+> random.random()  # generates a random float number
+> random.randint(from, to)  # generates a random int number in range from to to
+
+# NUMBER VALIDATION
+> x.isinteger()  # checks if value(of x object) is an int. returns True/False. is a !!class method!!
+> isinstance(value, float)  # we can check if value is an int or float etc
+```
